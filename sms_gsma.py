@@ -1,14 +1,13 @@
 import urllib2
 import json
 
-
 data = {
-    		'outboundSMSMessageRequest': {
-    		'address':['tel:+1234567'],
- 			'senderAddress':'tel:+1234567',
- 			'outboundSMSTextMessage': {
-   		'message':'Hello world:-)'
-    		}
+    	'outboundSMSMessageRequest': {
+    	'address':['tel:+1234567'],
+ 		'senderAddress':'tel:+1234567',
+ 		'outboundSMSTextMessage': {
+   		    'message':'Hello world :-)'
+    	    }
  		}
  	}
 
